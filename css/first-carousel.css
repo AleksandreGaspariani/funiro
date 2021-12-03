@@ -228,5 +228,8 @@
 		top: 30%;
 		right: 30%;
 	}
+	.inspiration-carousel .owl-dots{
+		left: 25%;
+	}
 }
 

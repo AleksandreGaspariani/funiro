@@ -697,14 +697,79 @@ body {
     flex: 100%;
     max-width: 100%;
   }
+  .div2 > ol,ul {
+  	padding-left: 0 !important;
+  	justify-content: center !important;
+  }
   .over-courusel{
 		top: 15%;
-		left: -68%;
+		left: -80%;
 		width: 350px;
 		max-width: 350px;
-		height: 380px;
+		height: 350px;
 		background-color: rgba(255,255,255, 0.72);
 		z-index: 5;
 		transition: all 1s ease;
+	}
+	.over-courusel > div > p:first-child{
+		font-size: 1.75rem;
+	}
+	#stage2 > ul {
+		margin-left: 1rem;
+	}
+	#stage2 > ul > li > div{
+		opacity: 0;
+	}
+	.stage3-header {
+		left: 30%;
+		font-size: 2rem;
+	}
+	#stage3 > a {
+		left: 30% !important;
+	}
+	#stage4 > div div:first-child {
+		margin: 0;
+	}
+	#stage4 .text-wrap {
+		padding-top: 4rem;
+		/*padding: 0 !important;*/
+		font-size: 1.40rem;
+		line-height: 24px;
+	}
+	#stage4 > div > div > small {
+		font-size: 1rem;
+		line-height: 2px;
+	}
+	#stage4 > div > div > button {
+		padding: 1rem;
+		margin-left: 0;
+		width: auto;
+	}
+	#stage7-grid > div > div:first-child{
+		padding-top: 3rem;
+	}
+	#stage7-grid #stage6-header{
+		left: 25%;
+	}
+	#stage7-grid #stage6-share{
+		left: 40%;
+	}
+	#stage7-grid{
+		height: 38rem;
+	}
+	#stage7-grid .laststage-row > div:nth-last-child(-n+2){
+		display: none;
+	}
+	#stage8-footer{
+		margin-top: 2rem;
+	}
+	#stage8-footer > div {
+		padding-left: 2px;
+	}
+	#stage8-footer > div > ul > h2{
+		font-size: 1.2rem;
+	}
+	#stage8-footer > div > ul > li {
+		font-size: 0.75rem !important;
 	}
 }
