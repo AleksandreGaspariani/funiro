@@ -1,0 +1,232 @@
+
+.slide-carousel > .owl-item:hover {
+
+}
+
+.slide-carousel > .owl-nav > .owl-prev{
+	position: absolute;
+	top: 15%;
+	right: 20%;
+}
+
+.tips-carousel > .owl-nav > .owl-prev {
+	position: absolute;
+	left: -0.25rem;
+	top: 45%;
+}
+
+.tips-carousel > .owl-nav > .owl-next {
+	position: absolute;
+	right: -0.25rem;
+	top: 45%;
+}
+
+.inspiration-carousel > .owl-nav > .owl-next{
+	position: absolute;
+	right: 0;
+	top: 40%;
+}
+.inspiration-carousel > .owl-nav > .owl-prev.disabled {
+	visibility: hidden;
+}
+
+.inspiration-carousel > .owl-nav > .owl-next.disabled {
+	visibility: hidden;
+}
+
+.inspiration-carousel > .owl-dots {
+	position: absolute;
+	bottom: 1%;
+	left: 50%;
+}
+
+.inspiration-carousel > .owl-nav > .owl-prev{
+	position: absolute;
+	left: 0;
+	top: 40%;
+}
+
+.tips-carousel > .owl-nav > .owl-prev > i{
+	font-size: 1rem;
+	color: #fff;
+	padding: 1rem;
+	background-color: rgb(232, 159, 113);
+	border-radius: 50%;
+	transition: all 1s ease !important;
+}
+
+.tips-carousel > .owl-nav > .owl-next > i {
+	font-size: 1rem;
+	color: #fff;
+	padding: 1rem;
+	background-color: rgb(232, 159, 113);
+	border-radius: 50%;
+	transition: all 1s ease !important;
+}
+
+.slide-carousel > .owl-nav > .owl-prev > i,
+.inspiration-carousel > .owl-nav > .owl-prev > i{
+	font-size: 0.75rem;
+	color: #fff;
+	padding: 0.75rem;
+	background-color: rgb(232, 159, 113);
+	border-radius: 50%;
+	transition: all 1s ease !important;
+}
+
+.slide-carousel > .owl-nav > .owl-next > i,
+.inspiration-carousel > .owl-nav > .owl-next > i{
+	font-size: 0.75rem;
+	color: #fff;
+	padding: 0.75rem;
+	background-color: rgb(232, 159, 113);
+	border-radius: 50%;
+	transition: all 1s ease !important;
+}
+.slide-carousel > .owl-nav > .owl-next > i:hover,
+.tips-carousel > .owl-nav > .owl-next > i:hover,
+.inspiration-carousel > .owl-nav > .owl-next > i:hover {
+	background-color: #ffffff !important;
+	border: 1px solid rgb(232, 159, 113) !important;
+	color: rgb(232, 159, 113) !important;
+}
+
+.slide-carousel > .owl-nav > .owl-prev > i:hover,
+.tips-carousel > .owl-nav > .owl-prev > i:hover,
+.inspiration-carousel > .owl-nav > .owl-prev > i:hover {
+	background-color: #ffffff !important;
+	border: 1px solid rgb(232, 159, 113) !important;
+	color: rgb(232, 159, 113) !important;
+}
+
+.slide-carousel > .owl-nav > .owl-next{
+	position: absolute;
+	top: 15%;
+	right: 17%;
+}
+
+.slide-carousel > .owl-nav > .owl-prev:hover,
+.tips-carousel > .owl-nav > .owl-prev:hover,
+.inspiration-carousel > .owl-nav > .owl-prev:hover {
+	background: none !important;
+	outline: none !important;
+}
+
+.slide-carousel > .owl-nav > .owl-next:hover,
+.tips-carousel > .owl-nav > .owl-next:hover,
+.inspiration-carousel > .owl-nav > .owl-next:hover {
+	background: none !important;
+	outline: none !important;
+}
+
+/*.slide-carousel > .owl-nav > .owl-next.disabled,
+.slide-carousel > .owl-nav > .owl-prev.disabled{
+	visibility: hidden;
+}*/
+
+.slide-carousel {
+	width: 100%;
+	margin: 0rem auto;
+	padding-top: 12rem;
+}
+
+.tips-carousel {
+	width: 80% !important;
+	margin: 0rem auto;
+	padding-top: 5rem;
+}
+
+.inspiration-carousel {
+	padding-top: 2%;
+}
+
+.inspiration-carousel > .owl-stage-outer > .owl-stage > div{
+	width: 22% !important;
+}
+
+.inspiration-carousel > .owl-stage-outer > .owl-stage > .active:first-child{
+	width: 23% !important;
+}
+
+.slide-carousel > .owl-stage-outer > .owl-stage,
+.tips-carousel > .owl-stage-outer > .owl-stage,
+.inspiration-carousel > .owl-stage-outer > .owl-stage{
+	display: flex;
+}
+
+.slide-carousel > .owl-dots {
+	position: absolute;
+	top: 18%;
+	right: 40%
+}
+
+.tips-carousel {
+	margin-bottom: 5rem;
+}
+
+.slide-carousel > .owl-dots > .owl-dot.active,
+.tips-carousel > .owl-dots > .owl-dot.active,
+.inspiration-carousel > .owl-dots > .owl-dot.active{
+	transition: width 2s ease;
+}
+
+.slide-carousel > .owl-dots > .owl-dot.active > span,
+.tips-carousel > .owl-dots > .owl-dot.active > span,
+.inspiration-carousel > .owl-dots > .owl-dot.active > span{
+	background: rgb(232, 159, 113) !important;
+	width: 30px !important;
+}
+
+.slide-carousel > .owl-dots > .owl-dot > span,
+.tips-carousel > .owl-dots > .owl-dot > span,
+.inspiration-carousel > .owl-dots > .owl-dot > span{
+	height: 20px !important;
+	width: 20px !important;
+	border: 1px solid rgb(232, 159, 113) !important;
+	background-color: rgb(255, 255, 255) !important;
+	transition: all 1s ease !important;
+}
+
+.slide-carousel > .owl-dots > .owl-dot:hover > span,
+.tips-carousel > .owl-dots > .owl-dot:hover > span,
+.inspiration-carousel > .owl-dots > .owl-dot:hover > span{
+	background-color: rgb(232, 159, 113) !important;
+	width: 40px !important;
+}
+
+@media screen and (max-width: 1000px) {
+	.slide-carousel > .owl-nav > .owl-prev{
+		position: absolute;
+		top: 30%;
+		left: 42%;
+	}
+	.slide-carousel > .owl-nav > .owl-next{
+		position: absolute;
+		top: 30%;
+		right: 42%;
+	}
+	.slide-carousel > .owl-dots {
+		position: absolute;
+		top: 20%;
+		right: 41%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.slide-carousel > .owl-nav > .owl-prev{
+		position: absolute;
+		top: 70%;
+		left: 0;
+	}
+	.slide-carousel > .owl-nav > .owl-next{
+		position: absolute;
+		top: 70%;
+		right: 0;
+	}
+	.slide-carousel > .owl-dots {
+		position: absolute;
+		top: 30%;
+		right: 30%;
+	}
+}
+
