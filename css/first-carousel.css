@@ -1,4 +1,7 @@
 
+.slide-carousel > .owl-item:hover {
+
+}
 
 .slide-carousel > .owl-nav > .owl-prev{
 	position: absolute;
@@ -226,7 +229,11 @@
 		right: 30%;
 	}
 	.inspiration-carousel .owl-dots{
-		left: 25%;
+		left: 15%;
+	}
+	.inspiration-carousel .owl-dots .owl-dot > span{
+		heigh: 10px !important;
+		width: 20px !important; 
 	}
 }
 

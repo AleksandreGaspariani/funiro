@@ -730,32 +730,37 @@ body {
 	#stage4 > div div:first-child {
 		margin: 0;
 	}
+	#stage4-text{
+		padding-left: 2px !important;
+	}
 	#stage4 .text-wrap {
-		padding-top: 1.25rem;
+		padding-top: 1rem !important;
 		/*padding: 0 !important;*/
-		font-size: 1.40rem;
+		font-size: 1.25rem;
 		line-height: 24px;
 	}
 	#stage4 > div > div > small {
-		font-size: 0.75rem;
-		line-height: 2px;
+		font-size: 0.75rem !important;
+		line-height: 2px !important;
 	}
 	#stage4 > div > div > button {
-		padding: 6px;
-		margin-left: 0;
+		margin: 0;
+		margin-left: 1rem;
+		margin-top: 0.25rem;
+		padding: .25rem 5px;
 		width: auto;
 	}
 	#stage7-grid > div > div:first-child{
 		padding-top: 3rem;
 	}
 	#stage7-grid #stage6-header{
-		left: 25%;
+		left: 3%;
 	}
 	#stage7-grid #stage6-share{
-		left: 40%;
+		left: 25%;
 	}
 	#stage7-grid{
-		height: 38rem;
+		height: 25rem;
 	}
 	#stage7-grid .laststage-row > div:nth-last-child(-n+2){
 		display: none;
