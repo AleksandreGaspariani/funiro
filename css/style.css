@@ -692,7 +692,7 @@ body {
 	}
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
   .laststage-column-column {
     flex: 100%;
     max-width: 100%;

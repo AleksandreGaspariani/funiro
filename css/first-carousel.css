@@ -212,7 +212,7 @@
 	}
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
 	.slide-carousel > .owl-nav > .owl-prev{
 		position: absolute;
 		top: 70%;
